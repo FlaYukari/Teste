@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Configuration;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Domain
 {
@@ -33,6 +28,7 @@ namespace Domain
         [DataType(DataType.PhoneNumber)]
         //[RegexStringValidator(@"^[a-zA-Z\.\-_]+@([a-zA-Z\.\-_]+\.)+[a-zA-Z]{2,4}$")]
         public string Email { get; set; }
+        [DataType(DataType.Text)]
         public DateTime DataNascimento { get; set; }
         public Boolean Sexo { get; set; }
     }

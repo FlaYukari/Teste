@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{10B45943-5420-4417-AB91-8BF135434E26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForms", "WinForms\WinForms.csproj", "{17F6CB74-9988-479F-9380-182C080C85A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForms", "WinForms\WinForms.csproj", "{8A0A9E9C-B68A-453E-8AB1-17DAE288305B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{10B45943-5420-4417-AB91-8BF135434E26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10B45943-5420-4417-AB91-8BF135434E26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10B45943-5420-4417-AB91-8BF135434E26}.Release|Any CPU.Build.0 = Release|Any CPU
-		{17F6CB74-9988-479F-9380-182C080C85A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{17F6CB74-9988-479F-9380-182C080C85A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{17F6CB74-9988-479F-9380-182C080C85A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{17F6CB74-9988-479F-9380-182C080C85A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A0A9E9C-B68A-453E-8AB1-17DAE288305B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A0A9E9C-B68A-453E-8AB1-17DAE288305B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A0A9E9C-B68A-453E-8AB1-17DAE288305B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A0A9E9C-B68A-453E-8AB1-17DAE288305B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

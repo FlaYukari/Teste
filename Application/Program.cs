@@ -12,6 +12,8 @@ namespace Application
         static void Main(string[] args)
         {
             PessoaDBContext context = new PessoaDBContext();
+
+            Console.ReadKey();
         }
     }
 }

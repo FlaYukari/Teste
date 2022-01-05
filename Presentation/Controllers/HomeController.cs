@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Presentation.Controllers
+namespace WebApplication1.Controllers
 {
     public class HomeController : Controller
     {
@@ -12,33 +12,19 @@ namespace Presentation.Controllers
         {
             return View();
         }
-        public ActionResult Create()
+
+        public ActionResult About()
         {
+            ViewBag.Message = "Your application description page.";
+
             return View();
         }
-        [HttpPost]
-        public ActionResult Create()
+
+        public ActionResult Contact()
         {
-            return View();
-        }
-        public ActionResult UpDate()
-        {
-            return View();
-        }
-        [HttpPost]
-        public ActionResult UpDate()
-        {
-            return View();
-        }
-        public ActionResult Delete()
-        {
-            return View();
-        }
-        [HttpPost]
-        public ActionResult Delete()
-        {
+            ViewBag.Message = "Your contact page.";
+
             return View();
         }
     }
-}
 }

@@ -1,5 +1,4 @@
-﻿using Data;
-using Domain;
+﻿using Domain;
 using System;
 using System.Windows.Forms;
 
@@ -28,11 +27,16 @@ namespace WinForms
             context.Pessoas.Add(pessoa);
 
             context.SaveChanges();
-        }
+        }   
 
         private void button2_Click(object sender, EventArgs e)
         {
             Pessoa pessoa = context.Pessoas.Find(3);
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("Olá mundo!");
         }
     }
 }

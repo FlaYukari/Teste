@@ -62,6 +62,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="PessoaDBContext.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -91,12 +92,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Data\Data.csproj">
-      <Project>{96DCB525-B25B-476E-BF45-81DA321B59D1}</Project>
-      <Name>Data</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Domain\Domain.csproj">
-      <Project>{171B364A-525C-4EA9-BF7E-F7E57B07FF4C}</Project>
+      <Project>{171b364a-525c-4ea9-bf7e-f7e57b07ff4c}</Project>
       <Name>Domain</Name>
     </ProjectReference>
   </ItemGroup>

@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{96DCB525-B25B-476E-BF45-81DA321B59D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{10B45943-5420-4417-AB91-8BF135434E26}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application (Controller)", "Application\Application (Controller).csproj", "{10B45943-5420-4417-AB91-8BF135434E26}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForms", "WinForms\WinForms.csproj", "{8A0A9E9C-B68A-453E-8AB1-17DAE288305B}"
 EndProject

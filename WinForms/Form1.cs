@@ -27,5 +27,10 @@ namespace WinForms
 
             context.SaveChanges();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Pessoa pessoa = context.Pessoas.Find(3);
+        }
     }
 }

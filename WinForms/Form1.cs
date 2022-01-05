@@ -21,7 +21,9 @@ namespace WinForms
             Pessoa pessoa = new Pessoa()
             {
                 Nome = "Pessoa teste DevMedia",
-                Endereco = "Rua Augusto Jesus, 103"
+                Endereco = "Rua Santos, 100"
+                Celular = 9-9999-9999
+                Email = "xxx.yyyy@hotmail.com"
             };
             context.Pessoas.Add(pessoa);
 

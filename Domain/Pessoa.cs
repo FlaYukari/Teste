@@ -23,9 +23,9 @@ namespace Domain
         public int Telefone { get; set; }
         [Required]
         [Phone]
+        //[DataType(DataType.PhoneNumber)]
         public int Celular { get; set; }
         [Required]
-        [DataType(DataType.PhoneNumber)]
         //[RegexStringValidator(@"^[a-zA-Z\.\-_]+@([a-zA-Z\.\-_]+\.)+[a-zA-Z]{2,4}$")]
         public string Email { get; set; }
         [DataType(DataType.Text)]
